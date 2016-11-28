@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.snser.launcher.apps.components.workspace.Shortcut xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BubbleTextView"
+    android:layout_width="@dimen/app_text_fadding_size" />

@@ -1,0 +1,23 @@
+<resources>
+	<integer name="config_allAppsBatchSize">4</integer>
+    <integer name="default_home_layout_type">0</integer>
+    
+    <integer name="widget_view_type_clock1x1">101</integer>
+    <integer name="widget_view_type_calendar1x1">102</integer>
+    <integer name="widget_view_type_transparent1x1">1001</integer>
+    <integer name="widget_view_type_traffic2x3">1005</integer>
+    <integer name="widget_view_type_setting2x3">1008</integer>
+    
+    <integer name="widget_view_type_camera1x1">2001</integer>
+    <integer name="widget_view_type_gallery1x1">2002</integer>
+    <integer name="widget_view_type_btime1x1">2003</integer>
+    <integer name="widget_view_type_settings1x1">2004</integer>
+    
+    <integer name="widget_view_type_test2x3">9999</integer>
+    
+    <!-- caros begin -->
+    <integer name="workspace_default_cell_num_vertical">2</integer>
+    <integer name="workspace_default_cell_num_horizontal">2</integer>
+    <!-- caros end -->
+    
+</resources>

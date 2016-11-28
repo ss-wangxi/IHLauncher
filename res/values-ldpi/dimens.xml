@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="snser_test_screen">3dp</dimen>
+    
+    <dimen name="screen_edit_addapp_dialog_height">414dp</dimen>
+    <dimen name="screen_edit_addapp_dialog_width">300dp</dimen>    
+    <integer name="screen_edit_addapp_dialog_grid_short_axis_cells">4</integer>
+    <integer name="screen_edit_addapp_dialog_grid_long_axis_cells">3</integer>
+    <dimen name="pay_confirm_thumbnail_margin_top">8dp</dimen>
+    <dimen name="pay_confirm_divider_margin_top">8dp</dimen>
+    <dimen name="pay_confirm_button_margin_top">8dp</dimen>
+    <dimen name="pay_confirm_note_text_margin_bottom">0dp</dimen>
+    
+    <dimen name="virtual_statusbar_height">32dp</dimen>
+    
+    <dimen name="launcher_margin_none">0dp</dimen>
+    <dimen name="launcher_margin_navibar">0dp</dimen>
+    
+    <dimen name="workspace_margin_top">36dp</dimen>
+    <dimen name="workspace_margin_left">50dp</dimen>
+    <dimen name="workspace_margin_right">50dp</dimen>
+    <dimen name="workspace_margin_bottom">10.7dp</dimen>
+    
+    <dimen name="workspace_padding_top">0dp</dimen>
+    <dimen name="workspace_padding_left">0dp</dimen>
+    <dimen name="workspace_padding_right">0dp</dimen>
+    <dimen name="workspace_padding_bottom">0dp</dimen>
+    
+    <dimen name="workspace_bottom_area_padding">4dp</dimen>
+    
+    <dimen name="workspace_cell_width">144dp</dimen>
+    <dimen name="workspace_cell_height">128dp</dimen>
+    
+    <dimen name="indicator_margin_left_phone_default">0dp</dimen>
+    <dimen name="indicator_margin_left_car_j601">0dp</dimen>
+    <dimen name="indicator_margin_left_car_default">0dp</dimen>
+    
+    <dimen name="widget_entrance_icon_width">64dp</dimen>
+    <dimen name="widget_entrance_icon_height">64dp</dimen>
+    <dimen name="widget_entrance_icon_margin_top">16dp</dimen>
+    <dimen name="widget_entrance_icon_margin_bottom">8dp</dimen>
+    <dimen name="widget_entrance_label_text">24sp</dimen>
+    
+</resources>

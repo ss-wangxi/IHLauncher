@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources>
+    <!-- Orientation of a widget. -->
+    <attr name="direction">
+        <!-- Vertical widget. -->
+        <enum name="vertical" value="0" />
+        <!-- Horizontal widget. -->
+        <enum name="horizontal" value="1" />
+    </attr>
+
+    <skip />
+
+    <!-- CellLayout specific attributes. These attributes are used to customize
+         a CellLayout view in XML files. -->
+    <declare-styleable name="CellLayout">
+        <!-- The width of a single cell -->
+        <attr name="cellWidth" format="dimension"  />
+        <!-- The height of a single cell -->
+        <attr name="cellHeight" format="dimension"  />
+        <!-- Padding to apply at the start of the long axis -->
+        <attr name="longAxisStartPadding" format="dimension"  />
+        <!-- Padding to apply at the end of the long axis -->
+        <attr name="longAxisEndPadding" format="dimension"  />
+        <!-- Padding to apply at the start of the short axis -->
+        <attr name="shortAxisStartPadding" format="dimension"  />
+        <!-- Padding to apply at the end of the short axis -->
+        <attr name="shortAxisEndPadding" format="dimension"  />
+        <!-- Number of cells on the short axis of the CellLayout -->
+        <attr name="shortAxisCells" format="integer" />
+        <!-- Number of cells on the long axis of the CellLayout -->
+        <attr name="longAxisCells" format="integer" />
+    </declare-styleable>
+
+    <!-- XML attributes used by default_workspace.xml -->
+    <declare-styleable name="Favorite">
+        <attr name="className" format="string" />
+        <attr name="packageName" format="string" />
+        <attr name="container" format="integer" />
+        <attr name="screen" format="string" />
+        <attr name="x" format="string" />
+        <attr name="y" format="string" />
+        <attr name="spanX" format="string" />
+        <attr name="spanY" format="string" />
+        <attr name="icon" format="reference" />  
+        <attr name="title" format="reference" />
+        <attr name="action" format="string" />
+        <attr name="uri" format="string" />
+        <attr name="type" format="string" />
+        <attr name="category" format="string" />
+        <attr name="widgetViewType" format="integer" />
+        <attr name="maxYCount" format="integer" />
+        <attr name="id" format="integer" />
+        <attr name="extra" format="string" />
+        <attr name="suggestType" format="string" />
+        <attr name="refer_id" format="integer" />
+        <attr name="refer" format="integer" />
+        <attr name="app_category" format="integer"/>
+        <attr name="categoryType" format="string"/>
+		<attr name="index" format="string"/>
+    </declare-styleable>
+    
+    <declare-styleable name="QAccountEditText">
+        <attr name="hint" format="reference|string"></attr>
+        <attr name="textSize" format="reference|string"></attr>
+        <attr name="showLastAccount" format="reference|boolean"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="QPasswordEditText">
+        <attr name="hint" />
+        <attr name="textSize" />
+    </declare-styleable>
+    
+    <declare-styleable name="Indicator">
+        <attr name="selected_indicator" format="reference" />
+        <attr name="unselected_indicator" format="reference" />
+        <attr name="selected_ex_indicator" format="reference" />
+        <attr name="unselected_ex_indicator" format="reference" />
+    </declare-styleable>
+    
+    <attr name="sidebuffer" format="integer"/>
+    <declare-styleable name="ViewFlow">
+        <attr name="sidebuffer" />
+    </declare-styleable>
+    <declare-styleable name="GridGallery">
+        <attr name="columns" format="integer" />
+        <attr name="rows" format="integer" />
+        <attr name="spacing" format="dimension" />
+        <attr name="sidebuffer"/>
+        <attr name="galleryOrientation" >
+            <enum name="horizontal" value="0" />  
+            <enum name="vertical" value="1" />  
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="Forecast">
+        <attr name="days" format="integer"/>
+    </declare-styleable>
+    
+    <!-- FlowLayout for feedback tags -->
+	<declare-styleable name="FlowLayout">
+		<attr name="android:gravity" />
+	</declare-styleable>
+	<declare-styleable name="FlowLayout_Layout">
+		<attr name="android:layout_gravity" />
+	</declare-styleable>
+    
+</resources>

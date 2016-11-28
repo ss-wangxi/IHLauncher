@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shouxinzm.launcher.widget.placeholder.PlaceholderDefaultView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+     >
+     
+    <RelativeLayout
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_marginLeft="5dp"
+    	android:layout_marginRight="5dp"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginBottom="10dp"
+    	android:background="#73000000"
+    	android:gravity="center">
+    
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        >
+
+	        <ImageView
+	            android:id="@+id/holder_refresh"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:src="@drawable/appwidget_holder_refresh" />
+        
+	         <TextView
+	        	android:id="@+id/appwidget_title"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginTop="5dp"
+	        	android:textColor="#80FFFFFF"
+	        	 />
+    
+    	</LinearLayout>
+    
+    </RelativeLayout>
+
+   
+
+</com.shouxinzm.launcher.widget.placeholder.PlaceholderDefaultView>

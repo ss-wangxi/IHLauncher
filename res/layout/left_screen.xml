@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.snser.launcher.screens.PageCellLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hapticFeedbackEnabled="false"
+
+    launcher:cellWidth="@dimen/workspace_cell_width"
+    launcher:cellHeight="@dimen/workspace_cell_height"
+    android:background="#000000" >
+
+	<RelativeLayout android:id="@+id/left_page_content_wrapper"
+		android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+        	android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxx"
+            android:textColor="#FFFFFF"
+        />
+
+	</RelativeLayout>
+</cc.snser.launcher.screens.PageCellLayout>

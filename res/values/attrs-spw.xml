@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="SuperProgressWheel">   
+        <attr name="spwTotalArcAngle" format="float" />
+        
+        <attr name="spwMainStepCount" format="integer" />
+        <attr name="spwMainStepBlankAngleRate" format="float" />
+        <attr name="spwMainArcEdgeRadius" format="dimension" />
+        <attr name="spwMainArcWidth" format="dimension" />
+        <attr name="spwMainArcBackgroundColor" format="color" />  
+        <attr name="spwMainArcStartColor" format="color" />  
+        <attr name="spwMainArcEndColor" format="color" />  
+        
+        <attr name="spwOuterArcEdgeRadius" format="dimension" />
+        <attr name="spwOuterArcWidth" format="dimension" />
+        <attr name="spwOuterArcColor" format="color" />
+        
+        <attr name="spwInnerStepCount" format="integer" />
+        <attr name="spwInnerStepBlankAngleRate" format="float" />
+        <attr name="spwInnerArcEdgeRadius" format="dimension" />
+        <attr name="spwInnerArcWidth" format="dimension" />
+        <attr name="spwInnerArcColor" format="color" />
+        
+        <attr name="spwProgress" format="integer" />
+    </declare-styleable>
+</resources>

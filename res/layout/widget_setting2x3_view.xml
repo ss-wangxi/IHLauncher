@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.snser.launcher.widget.setting2x3.Setting2x3View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/widget_setting2x3_base"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/widget2x3_margin_top"
+        android:layout_marginBottom="@dimen/widget2x3_margin_bottom"
+        android:layout_marginLeft="@dimen/widget2x3_margin_left"
+        android:layout_marginRight="@dimen/widget2x3_margin_right"
+        android:background="@drawable/widget2x3_bg" >
+
+        <ImageView
+            android:id="@+id/widget_setting2x3_icon"
+            android:layout_width="@dimen/widget2x3_icon_width"
+            android:layout_height="@dimen/widget2x3_icon_height"
+            android:layout_marginTop="@dimen/widget2x3_icon_margin_top"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/widget_setting2x3_icon" />
+        
+        <TextView
+            android:id="@+id/widget_setting2x3_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/widget2x3_name_margin_top"
+            android:layout_marginBottom="@dimen/widget2x3_name_margin_bottom"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/widget2x3_name_text"
+            android:textSize="@dimen/widget2x3_name_text_size"
+            android:text="@string/widget_name_setting2x3" />
+
+        <TextView
+            android:id="@+id/widget_setting2x3_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/widget_setting2x3_name"
+            android:textColor="@color/widget2x3_status_text"
+            android:textSize="@dimen/widget2x3_status_text_size"
+            android:text="@string/widget_setting2x3_status" />
+
+        <ImageButton
+            android:id="@+id/widget_setting2x3_btn"
+            android:layout_width="@dimen/widget2x3_btn_middle_width"
+            android:layout_height="@dimen/widget2x3_btn_middle_height"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="@dimen/widget2x3_btn_middle_padding_left"
+            android:paddingRight="@dimen/widget2x3_btn_middle_padding_right"
+            android:paddingTop="@dimen/widget2x3_btn_middle_padding_top"
+            android:paddingBottom="@dimen/widget2x3_btn_middle_padding_bottom"
+            android:background="@color/transparent"
+            android:src="@drawable/widget2x3_btn_setting" />
+    </RelativeLayout>
+
+</cc.snser.launcher.widget.setting2x3.Setting2x3View>

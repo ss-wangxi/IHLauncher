@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_layout_values" translatable="false">
+        <item>4x4</item>
+        <item>5x4</item>
+        <item>4x5</item>
+        <item>5x5</item>
+        <item>6x4</item>
+    </string-array>
+    
+    <string-array name="cn_num" translatable="false">
+        <item>@string/cn_num_1</item>
+        <item>@string/cn_num_2</item>
+        <item>@string/cn_num_3</item>
+        <item>@string/cn_num_4</item>
+        <item>@string/cn_num_5</item>
+        <item>@string/cn_num_6</item>
+        <item>@string/cn_num_7</item>
+        <item>@string/cn_num_8</item>
+        <item>@string/cn_num_9</item>
+        <item>@string/cn_num_10</item>
+    </string-array>
+    
+    <!-- lunar begin -->
+    <string-array name="lunar_date_prefix" translatable="false">
+        <item>@string/lunar_date_prefix_0</item>
+        <item>@string/lunar_date_prefix_1</item>
+        <item>@string/lunar_date_prefix_2</item>
+    </string-array>
+    
+    <string-array name="lunar_monthname" translatable="false">
+        <item>@string/lunar_monthname_1</item>
+        <item>@string/cn_num_2</item>
+        <item>@string/cn_num_3</item>
+        <item>@string/cn_num_4</item>
+        <item>@string/cn_num_5</item>
+        <item>@string/cn_num_6</item>
+        <item>@string/cn_num_7</item>
+        <item>@string/cn_num_8</item>
+        <item>@string/cn_num_9</item>
+        <item>@string/cn_num_10</item>
+        <item>@string/lunar_monthname_11</item>
+        <item>@string/lunar_monthname_12</item>
+    </string-array>
+    
+    <string-array name="lunar_principle" translatable="false">
+        <item>@string/lunar_principle_1</item>
+        <item>@string/lunar_principle_2</item>
+        <item>@string/lunar_principle_3</item>
+        <item>@string/lunar_principle_4</item>
+        <item>@string/lunar_principle_5</item>
+        <item>@string/lunar_principle_6</item>
+        <item>@string/lunar_principle_7</item>
+        <item>@string/lunar_principle_8</item>
+        <item>@string/lunar_principle_9</item>
+        <item>@string/lunar_principle_10</item>
+        <item>@string/lunar_principle_11</item>
+        <item>@string/lunar_principle_12</item>
+    </string-array>
+    
+    <string-array name="lunar_sectional" translatable="false">
+        <item>@string/lunar_sectional_1</item>
+        <item>@string/lunar_sectional_2</item>
+        <item>@string/lunar_sectional_3</item>
+        <item>@string/lunar_sectional_4</item>
+        <item>@string/lunar_sectional_5</item>
+        <item>@string/lunar_sectional_6</item>
+        <item>@string/lunar_sectional_7</item>
+        <item>@string/lunar_sectional_8</item>
+        <item>@string/lunar_sectional_9</item>
+        <item>@string/lunar_sectional_10</item>
+        <item>@string/lunar_sectional_11</item>
+        <item>@string/lunar_sectional_12</item>
+    </string-array>
+    
+    <string-array name="date_week" translatable="false">
+        <item>@string/clockweather_week0</item>
+        <item>@string/clockweather_week1</item>
+        <item>@string/clockweather_week2</item>
+        <item>@string/clockweather_week3</item>
+        <item>@string/clockweather_week4</item>
+        <item>@string/clockweather_week5</item>
+        <item>@string/clockweather_week6</item>
+    </string-array>
+    <!-- lunar end -->
+    
+</resources>

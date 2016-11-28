@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        Copyright (C) 2009 The Android Open Source Project Licensed under the
+        Apache License, Version 2.0 (the "License"); you may not use this file
+        except in compliance with the License. You may obtain a copy of the
+        License at http://www.apache.org/licenses/LICENSE-2.0 Unless required
+        by applicable law or agreed to in writing, software distributed under
+        the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+        CONDITIONS OF ANY KIND, either express or implied. See the License for
+        the specific language governing permissions and limitations under the
+        License.
+-->
+
+<resources>
+    <dimen name="snser_test_unit">1dp</dimen>
+    <dimen name="snser_test_screen">1dp</dimen>
+    
+    <dimen name="menu_title_size">30sp</dimen>
+    <dimen name="menu_item_size">16sp</dimen>
+    
+    <dimen name="launcher_margin_none">0dp</dimen>
+    <dimen name="launcher_margin_navibar">0dp</dimen>
+    
+    <dimen name="workspace_cell_width">80dip</dimen>
+    <dimen name="workspace_cell_height">100dip</dimen>
+    
+    <dimen name="workspace_bottom_area_padding">2.7dp</dimen>
+    
+    <dimen name="workspace_margin_top">22dp</dimen>
+    <dimen name="workspace_margin_left">0px</dimen>
+    <dimen name="workspace_margin_right">0dp</dimen>
+    <dimen name="workspace_margin_bottom">25dp</dimen>
+    
+    <dimen name="workspace_padding_top">0dp</dimen>
+    <dimen name="workspace_padding_left">0dp</dimen>
+    <dimen name="workspace_padding_right">0dp</dimen>
+    <dimen name="workspace_padding_bottom">0dp</dimen>
+    
+    <dimen name="indicator_margin_left_phone_default">0dp</dimen>
+    <dimen name="indicator_margin_left_car_j601">0dp</dimen>
+    <dimen name="indicator_margin_left_car_default">0dp</dimen>
+    
+    <dimen name="virtual_statusbar_height">22dp</dimen>
+    <dimen name="virtual_statusbar_time_text">14.7dp</dimen>
+    <dimen name="virtual_statusbar_icon_width">13.3dp</dimen>
+    <dimen name="virtual_statusbar_icon_height">16dp</dimen>
+    <dimen name="virtual_statusbar_icon_margin_left">7dp</dimen>
+    
+    <dimen name="workspace_icon_padding_left">5dip</dimen>
+    <dimen name="workspace_icon_padding_right">5dip</dimen>
+    <dimen name="workspace_icon_padding_top">5dip</dimen>
+    <dimen name="workspace_icon_padding_bottom">0dip</dimen>
+    <dimen name="workspace_icon_layout_margin_left">0dip</dimen>
+    <dimen name="workspace_icon_layout_margin_top">0dip</dimen>
+    <dimen name="workspace_icon_layout_margin_right">0dip</dimen>
+    <dimen name="workspace_icon_layout_margin_bottom">0dip</dimen>
+    <dimen name="workspace_notification_text_size">12sp</dimen>
+    <dimen name="workspace_water_indicator_select_radius">4dip</dimen>
+    <dimen name="workspace_water_indicator_unselect_radius">3dip</dimen>
+    <dimen name="workspace_water_indicator_gap">10dip</dimen>
+    <dimen name="workspace_water_indicator_vertical_padding">2dip</dimen>
+    <dimen name="workspace_exported_screen_title_text_size">18sp</dimen>
+    
+    <!-- height & width of the drop rectangle for the trash icon -->
+    <dimen name="notify_zone_size">64dip</dimen>
+    <dimen name="delete_zone_size">64dip</dimen>
+    <dimen name="delete_zone_padding_bottom">20dip</dimen>
+
+    <!--
+        roughly a status bar (for vertically centering the all apps home icon
+        in landscape)
+    -->
+    <dimen name="status_bar_height">25dip</dimen>
+    
+    <!--
+        the area at the edge of the screen that makes the workspace go left or
+        right while you're dragging.
+    -->
+    <dimen name="scroll_zone">20dp</dimen>
+    <dimen name="default_icon_size">56dp</dimen> <!-- icon size -->
+    <dimen name="app_icon_size">51dp</dimen> <!-- icon size -->
+    <dimen name="screen_edit_icon_size">54dp</dimen> <!-- screen_edit_icon_size -->
+    <dimen name="app_icon_bg_outter_padding">2dp</dimen> <!-- icon size in iconbg -->
+    <dimen name="app_icon_bg_inner_padding">1.5dp</dimen> <!-- icon size in iconbg -->
+    <dimen name="app_text_fadding_size">70dp</dimen>
+    
+    
+    <dimen name="edit_off_top">60dp</dimen>
+    <dimen name="workspace_cell_off_top">20dp</dimen>
+    <dimen name="workspace_edit_homebtn_off_bottom">14dp</dimen>
+    
+    
+    <!-- caros begin -->
+    <dimen name="multiscreen_floatingwnd_width_normal">600px</dimen>
+    <dimen name="multiscreen_floatingwnd_width_collapsed">400px</dimen>
+    <dimen name="multiscreen_floatingwnd_height">500px</dimen>
+    
+    <dimen name="multiscreen_system_split_normal">0px</dimen>
+    <dimen name="multiscreen_system_split_collapsed">0px</dimen>
+    
+    <dimen name="widget2x3_width">160dp</dimen>
+    <dimen name="widget2x3_height">330dp</dimen>
+    <dimen name="widget2x3_margin_left">0dp</dimen>
+    <dimen name="widget2x3_margin_right">0dp</dimen>
+    <dimen name="widget2x3_margin_top">0dp</dimen>
+    <dimen name="widget2x3_margin_bottom">18dp</dimen>
+    
+    <dimen name="widget2x3_btn_4_width">146.7dp</dimen>
+    <dimen name="widget2x3_btn_4_height">34.7dp</dimen>
+    
+    
+    <dimen name="widget2x3_btn_3_width">104dp</dimen>
+    <dimen name="widget2x3_btn_3_height">34.7dp</dimen>
+    <dimen name="widget2x3_btn_1_width">34.7dp</dimen>
+    <dimen name="widget2x3_btn_1_height">34.7dp</dimen>
+    <dimen name="widget2x3_btn_margin_bottom">13.3dp</dimen>
+    <dimen name="widget2x3_btn_text_size">17.3sp</dimen>
+    <dimen name="widget2x3_status_text_size">14.7sp</dimen>
+    <dimen name="widget2x3_status_margin_top">153.3dp</dimen>
+    <dimen name="widget2x3_status_margin_bottom">22dp</dimen>
+    <dimen name="widget2x3_name_text_size">20sp</dimen>
+    <dimen name="widget2x3_name_left_width">20dp</dimen>
+    <dimen name="widget2x3_name_right_width">20dp</dimen>
+    
+    <dimen name="widget2x3_klstatus_text_size">14.7sp</dimen>
+    <dimen name="widget2x3_klbtn_text_size">17.3sp</dimen>
+    
+    <dimen name="widget_video2x3_adas_width">160dp</dimen>
+    <dimen name="widget_video2x3_adas_height">120dp</dimen>
+    
+    
+    <dimen name="widget_entrance_icon_width">64dp</dimen>
+    <dimen name="widget_entrance_icon_height">64dp</dimen>
+    <dimen name="widget_entrance_icon_margin_top">16dp</dimen>
+    <dimen name="widget_entrance_icon_margin_bottom">8dp</dimen>
+    <dimen name="widget_entrance_label_text">24sp</dimen>
+    <!-- caros end -->
+    
+</resources>

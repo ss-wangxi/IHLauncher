@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="snser_test_screen">2dp</dimen>
+    
+    <dimen name="dockbar_height">98dip</dimen>
+    
+    <dimen name="bubbtextview_textsize">11sp</dimen>
+    
+    <dimen name="screen_edit_addapp_dialog_height">476dp</dimen>
+    <dimen name="screen_edit_addapp_dialog_width">320dp</dimen>
+    <dimen name="pay_confirm_divider_margin_top">40dp</dimen>
+    <dimen name="default_clockweather_widget_date_text_size">12dp</dimen>
+    <dimen name="default_clockweather_widget_zh_text_size">12dp</dimen>
+    <dimen name="default_clockweather_widget_weather_icon_width">86dp</dimen>
+    <dimen name="default_clockweather_widget_weather_icon_height">70dp</dimen>
+    <dimen name="default_clockweather_widget_time_margin_top">50dp</dimen>
+    <dimen name="default_clockweather_widget_weather_icon_margin_left">36dp</dimen>
+    <dimen name="default_clockweather_widget_weather_icon_margin_top">30dp</dimen>
+    <dimen name="default_clockweather_widget_weather_infomation_margin_top">2dp</dimen>
+    <dimen name="default_clockweather_widget_aqi_text_size">11dp</dimen>
+    <dimen name="seasons_clockweather_query_city_view_input_text_size">13sp</dimen>
+    
+    <dimen name="default_clockweather_widget_time_margin_left">36dp</dimen>
+    <!-- base -->
+    <dimen name="clockweather_widget_max_height">182dip</dimen>
+    
+    <!-- clock weather popup -->
+    <dimen name="clockweather_popup_padding_top">70dp</dimen>
+    <dimen name="clockweather_linechart_height">150dp</dimen>
+    <dimen name="clockweather_popup_header_city_text_size">26dp</dimen>
+    <dimen name="clockweather_popup_header_text_size">18dp</dimen>
+    <dimen name="clockweather_popup_header_aqi_text_size">13dp</dimen>
+    <dimen name="clockweather_popup_header_icon_size">70dp</dimen>
+    <dimen name="clockweather_popup_header_minHeight">90dp</dimen>
+    
+    <dimen name="default_clockweather_widget_weather_midline_margin_top">42dp</dimen>
+
+    <dimen name="clockweather_left_margin">15dp</dimen>
+    <dimen name="clockweather_right_margin">15dp</dimen>
+    <dimen name="clockweather_bottom_padding">2dp</dimen>
+    <dimen name="clockweather_time_width">186dp</dimen>
+    <dimen name="clockweather_time_height">55dp</dimen>
+    <dimen name="clockweather_date_left_offset">5dp</dimen>
+    <dimen name="clockweather_city_left_margin">20dp</dimen>
+    <dimen name="clockweather_small_text_size">12sp</dimen>
+    <dimen name="clockweather_right_width">60dp</dimen>
+    
+    <dimen name="launcher_margin_none">0dp</dimen>
+    <dimen name="launcher_margin_navibar">66.7dp</dimen>
+    
+    <dimen name="workspace_cell_width">100dp</dimen>
+    <dimen name="workspace_cell_height">99.3dp</dimen>
+    
+    <dimen name="workspace_margin_top">22dp</dimen>
+    <dimen name="workspace_margin_left">0dp</dimen>
+    <dimen name="workspace_margin_right">13.3dp</dimen>
+    <dimen name="workspace_margin_bottom">0dp</dimen>
+    
+    <dimen name="indicator_margin_left_phone_default">0dp</dimen>
+    <dimen name="indicator_margin_left_car_j601">106.7dp</dimen>
+    <dimen name="indicator_margin_left_car_default">0dp</dimen>
+    
+    <dimen name="virtual_statusbar_height">22dp</dimen>
+    
+    <dimen name="workspace_bottom_area_padding">6.7dp</dimen>
+    
+    <dimen name="workspace_long_axis_start_gap">0px</dimen>
+    <dimen name="workspace_long_axis_mid_gap">0px</dimen>
+    <dimen name="workspace_long_axis_end_gap">0px</dimen>
+    
+    <dimen name="multiscreen_floatingwnd_width_normal">476px</dimen>
+    <dimen name="multiscreen_floatingwnd_width_collapsed">350px</dimen>
+    <dimen name="multiscreen_floatingwnd_height">720px</dimen>
+    
+    <dimen name="widget2x3_width">173.3dp</dimen>
+    <dimen name="widget2x3_height">297.3dp</dimen>
+    <dimen name="widget2x3_margin_left">13.3dp</dimen>
+    <dimen name="widget2x3_margin_right">0dp</dimen>
+    <dimen name="widget2x3_margin_top">0dp</dimen>
+    <dimen name="widget2x3_margin_bottom">18dp</dimen>
+    
+    <dimen name="widget_video2x3_adas_width">208.5dp</dimen>
+    <dimen name="widget_video2x3_adas_height">156dp</dimen>
+    
+    <dimen name="widget2x3_icon_width">98.7dp</dimen>
+    <dimen name="widget2x3_icon_height">98.7dp</dimen>
+    <dimen name="widget2x3_icon_margin_top">26.7dp</dimen>
+    
+    <dimen name="widget2x3_btn_left_width">93.3dp</dimen>
+    <dimen name="widget2x3_btn_left_height">72dp</dimen>
+    <dimen name="widget2x3_btn_left_padding_left">33.3dp</dimen>
+    <dimen name="widget2x3_btn_left_padding_right">14.7dp</dimen>
+    <dimen name="widget2x3_btn_left_padding_top">6.7dp</dimen>
+    <dimen name="widget2x3_btn_left_padding_bottom">20dp</dimen>
+    <dimen name="widget2x3_btn_right_width">93.3dp</dimen>
+    <dimen name="widget2x3_btn_right_height">72dp</dimen>
+    <dimen name="widget2x3_btn_right_padding_left">14.7dp</dimen>
+    <dimen name="widget2x3_btn_right_padding_right">33.3dp</dimen>
+    <dimen name="widget2x3_btn_right_padding_top">6.7dp</dimen>
+    <dimen name="widget2x3_btn_right_padding_bottom">20dp</dimen>
+    <dimen name="widget2x3_btn_middle_width">85.3dp</dimen>
+    <dimen name="widget2x3_btn_middle_height">72dp</dimen>
+    <dimen name="widget2x3_btn_middle_padding_left">20dp</dimen>
+    <dimen name="widget2x3_btn_middle_padding_right">20dp</dimen>
+    <dimen name="widget2x3_btn_middle_padding_top">6.7dp</dimen>
+    <dimen name="widget2x3_btn_middle_padding_bottom">20dp</dimen>
+    
+    <dimen name="widget2x3_btn_1_width">56dp</dimen>
+    <dimen name="widget2x3_btn_1_height">61.3dp</dimen>
+    <dimen name="widget2x3_btn_1_single_width">61.3dp</dimen>
+    <dimen name="widget2x3_btn_1_single_height">61.3dp</dimen>
+    <dimen name="widget2x3_btn_3_width">117.3dp</dimen>
+    <dimen name="widget2x3_btn_3_height">61.3dp</dimen>
+    <dimen name="widget2x3_btn_4_width">173.3dp</dimen>
+    <dimen name="widget2x3_btn_4_height">61.3dp</dimen>
+    <dimen name="widget2x3_btn_1_padding_left">13.3dp</dimen>
+    <dimen name="widget2x3_btn_1_padding_right">8dp</dimen>
+    <dimen name="widget2x3_btn_1_padding_top">13.3dp</dimen>
+    <dimen name="widget2x3_btn_1_padding_bottom">13.3dp</dimen>
+    <dimen name="widget2x3_btn_1_single_padding">13.3dp</dimen>
+    <dimen name="widget2x3_btn_3_padding_left">0dp</dimen>
+    <dimen name="widget2x3_btn_3_padding_right">13.3dp</dimen>
+    <dimen name="widget2x3_btn_3_padding_top">13.3dp</dimen>
+    <dimen name="widget2x3_btn_3_padding_bottom">13.3dp</dimen>
+    <dimen name="widget2x3_btn_4_padding">13.3dp</dimen>
+    <dimen name="widget2x3_btn_margin_bottom">0dp</dimen>
+    <dimen name="widget2x3_btn_text_size">17.3sp</dimen>
+    <dimen name="widget2x3_name_text_size">20sp</dimen>
+    <dimen name="widget2x3_name_margin_top">140dp</dimen>
+    <dimen name="widget2x3_name_margin_bottom">6.7dp</dimen>
+    <dimen name="widget2x3_status_text_size">14.7sp</dimen>
+    <dimen name="widget2x3_status_margin_top">153.3dp</dimen>
+    <dimen name="widget2x3_status_margin_bottom">16.7dp</dimen>
+    
+    <dimen name="widget_fm2x3_channel_disp_begin_margin_left">26dp</dimen>
+    <dimen name="widget_fm2x3_channel_disp_end_margin_left">59.3dp</dimen>
+    <dimen name="widget_fm2x3_channel_disp_text_width">40dp</dimen>
+    <dimen name="widget_fm2x3_channel_disp_text_height">15dp</dimen>
+    <!-- disp_text_begin_margin_left = disp_begin_margin_left - disp_text_width / 2 -->
+    <dimen name="widget_fm2x3_channel_disp_text_begin_margin_left">6dp</dimen>
+    <!-- disp_text_end_margin_left = disp_end_margin_left - disp_text_width / 2 -->
+    <dimen name="widget_fm2x3_channel_disp_text_end_margin_left">39.3dp</dimen>
+    
+    
+    <dimen name="workspace_icon_drawable_padding">0dp</dimen>
+    <dimen name="app_icon_bg_outter_padding">0dp</dimen><!-- icon size in iconbg -->
+    <dimen name="app_icon_bg_inner_padding">3dp</dimen><!-- icon size in iconbg -->
+    
+</resources>

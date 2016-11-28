@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2pref_wallpaper_type_singlescreen.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
+
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="application_name">"BTime桌面"</string>
+    <string name="home_name">" BTime桌面"</string>
+    <string name="uid_name">"Android 核心应用程序"</string>
+    <string name="group_home_shortcuts">"桌面快捷"</string>
+    <string name="out_of_space">"此屏幕上已没有空间。"</string>
+    <string name="permlab_install_shortcut">"安装快捷方式"</string>
+    <string name="permdesc_install_shortcut">"允许应用程序在没有用户介入的情况下添加快捷方式。"</string>
+    <string name="permlab_uninstall_shortcut">"卸载快捷方式"</string>
+    <string name="permdesc_uninstall_shortcut">"允许应用程序在没有用户介入的情况下删除快捷方式。"</string>
+    <string name="gadget_error_text">"载入窗口小部件时出现问题"</string>
+    <string name="screen_manager_tip">点亮房子可设该屏幕为主屏幕\n拖拽屏幕可以调换位置或删除</string>
+    <string name="screen_manager_screen_deletable">拖动到此删除屏幕</string>
+    <string name="screen_manager_screen_not_deletable_non_empty">非空屏幕不能删除</string>
+    <string name="screen_manager_screen_not_deletable_at_least_one">至少保留一个屏幕</string>
+
+    <!-- 全局名称 -->
+    <string name="global_add">添加</string>
+    <string name="global_install">安装</string>
+    <string name="global_uninstall">卸载</string>
+    <string name="global_warmth_warning">温馨提示</string>
+    <string name="global_sdcardmissing_dialog_title">存储卡不可访问</string>
+    <string name="global_sdcardmissing_dialog_message">请先确保SD卡已插入，且手机不在数据传输模式。稍后再试~</string>
+    <string name="global_commit">提交</string>
+    <!-- 简易模式 -->
+    <string name="miui_simple_mode_toast">在极简模式下体验较差，建议关闭极简模式</string>
+
+    <string name="loading_home_message">第一次使用桌面，正在初始化，请稍候</string>
+    <string name="launcher_reloading_message">正在载入桌面，请稍候...</string>
+    <string name="homescreen_available_for_app_alert">屏幕上没有多余空间</string>
+    <string name="homescreen_added_for_app_alert">页面无足够位置，已为您创建新页面</string>
+    <string name="homescreen_ready_for_app_alert">该屏没有多余空间，你可以添加到此屏</string>
+    <string name="uninstall_system_app_alert">系统应用无法卸载,卸载失败</string>
+    <string name="uninstall_app_not_exist_alert">应用不存在,卸载失败</string>
+    <string name="app_delete_activity_not_found">系统找不到指定应用程序。是否确定从应用列表中移除？</string>
+    <string name="settings_quick_default_launcher">设置默认桌面</string>
+    <string name="settings_quick_default_launcher_summary">开启后，按home键即可启动桌面</string>
+    <string name="settings_quick_default_launcher_suggest">需要开启</string>
+    <string name="set_default_launcher_success">设置默认桌面完成</string>
+    <string name="set_default_launcher_clear_me_title">清除默认桌面</string>
+    <string name="set_default_launcher_clear_me_msg">确定要清除默认设置吗？</string>
+    <string name="settings_default_launcher_for_CL_now">现在设置</string>
+    <string name="settings_default_launcher_for_CL_later">以后再说</string>
+    <string name="widget_add_app_widget_failed">对不起，无法添加系统小部件"%s"</string>
+    <string name="widget_loaded_app_widget_failed">对不起，无法加载系统小部件"%s"</string>
+    <string name="deletezone_userfolder_release">释放</string>
+    <string name="deletezone_userfolder_release_title">释放文件夹</string>
+    <string name="deletezone_userfolder_release_msg">释放文件夹“%s”后，所有应用将放到桌面上</string>
+    <string name="search_app_hint">按应用名首字母快速搜索\n（如，计算器：JSQ）</string>
+    <string name="custom_shortcut_action_app_store">应用市场</string>
+    <string name="global_hide">隐藏</string>
+    <string name="global_cancel_hide">取消隐藏</string>
+    <string name="global_never_alert">不再提醒</string>
+    <string name="custom_shortcut_action_launcher_settings">设置</string>
+    <string name="settings_gesture_none">无响应</string>
+    <string name="custom_shortcut_action_type_workspace_menu">打开桌面菜单</string>
+    <string name="custom_shortcut_action_type_open_notification_bar">打开通知栏</string>
+    <string name="custom_shortcut_action_type_search_by_t9">T9搜索</string>
+    <string name="custom_shortcut_action_type_search_by_index">所有应用</string>
+    <string name="open_notification_bar_failed_toast">系统限制，未能打开通知栏</string>
+    <string name="global_new">New</string>
+    <string name="launcher_permission_denied_title">Permission denied</string>
+    <string name="launcher_permission_denied_message">Sorry! Permission denied to launch this application.</string>
+    <string name="activity_not_found">"你的手机上未安装应用程序。"</string>
+    <string name="global_delete">删除</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <!-- base -->
+    <string name="widget_error_text" msgid="8359351016167075858">"载入窗口小部件时出现问题"</string>
+    <string name="widget_loading_text" msgid="8359351016167075858">"加载中"</string>
+    <string name="notify_zone_disable_delete">该项目不能被删除</string>
+    <string name="no_space_foradd">屏幕空间不足</string>
+    <string name="cn_num_1">一</string>
+    <string name="cn_num_2">二</string>
+    <string name="cn_num_3">三</string>
+    <string name="cn_num_4">四</string>
+    <string name="cn_num_5">五</string>
+    <string name="cn_num_6">六</string>
+    <string name="cn_num_7">七</string>
+    <string name="cn_num_8">八</string>
+    <string name="cn_num_9">九</string>
+    <string name="cn_num_10">十</string>
+
+    <!-- lunar begin -->
+    <string name="lunar_holiday_1230">除夕</string>
+    <string name="lunar_holiday_0101">春节</string>
+    <string name="lunar_holiday_0115">元宵</string>
+    <string name="lunar_holiday_0505">端午</string>
+    <string name="lunar_holiday_0707">七夕</string>
+    <string name="lunar_holiday_0815">中秋</string>
+    <string name="lunar_holiday_0909">重阳</string>
+    <string name="lunar_holiday_1208">腊八</string>
+    <string name="lunar_holiday_1223">小年</string>
+    <string name="lunar_date_prefix_0">初</string>
+    <string name="lunar_date_prefix_1">十</string>
+    <string name="lunar_date_prefix_2">廿</string>
+    <string name="lunar_monthname_1">正</string>
+    <string name="lunar_monthname_11">冬</string>
+    <string name="lunar_monthname_12">腊</string>
+    <string name="lunar_principle_1">大寒</string>
+    <string name="lunar_principle_2">雨水</string>
+    <string name="lunar_principle_3">春分</string>
+    <string name="lunar_principle_4">谷雨</string>
+    <string name="lunar_principle_5">小满</string>
+    <string name="lunar_principle_6">夏至</string>
+    <string name="lunar_principle_7">大暑</string>
+    <string name="lunar_principle_8">处暑</string>
+    <string name="lunar_principle_9">秋分</string>
+    <string name="lunar_principle_10">霜降</string>
+    <string name="lunar_principle_11">小雪</string>
+    <string name="lunar_principle_12">冬至</string>
+    <string name="lunar_sectional_1">小寒</string>
+    <string name="lunar_sectional_2">立春</string>
+    <string name="lunar_sectional_3">惊蛰</string>
+    <string name="lunar_sectional_4">清明</string>
+    <string name="lunar_sectional_5">立夏</string>
+    <string name="lunar_sectional_6">芒种</string>
+    <string name="lunar_sectional_7">小暑</string>
+    <string name="lunar_sectional_8">立秋</string>
+    <string name="lunar_sectional_9">白露</string>
+    <string name="lunar_sectional_10">寒露</string>
+    <string name="lunar_sectional_11">立冬</string>
+    <string name="lunar_sectional_12">大雪</string>
+    <string name="lunar_leap">闰</string>
+    <string name="clockweather_week0">周日</string>
+    <string name="clockweather_week1">周一</string>
+    <string name="clockweather_week2">周二</string>
+    <string name="clockweather_week3">周三</string>
+    <string name="clockweather_week4">周四</string>
+    <string name="clockweather_week5">周五</string>
+    <string name="clockweather_week6">周六</string>
+    <string name="date_unit_month">月</string>
+    <string name="date_unit_day">日</string>
+    <string name="date_unit_week">周</string>
+    <!-- lunar end -->
+
+
+    <!-- built in widget begin -->
+    <string name="widget_name_clock1x1">时钟</string>
+    <string name="widget_name_calendar1x1">日历</string>
+    <string name="widget_name_transparent1x1">透明</string>
+    <string name="widget_name_traffic2x3">流量监控</string>
+    <string name="widget_name_setting2x3">设置</string>
+    <string name="widget_name_test2x3">测试测试</string>
+    <string name="widget_setting2x3_status">将本设备调整至最佳状态</string>
+    <string name="widget_setting2x3_btn_text">设置选项</string>
+    <string name="widget_traffic2x3_free_label">剩余</string>
+    <string name="widget_traffic2x3_free">2569</string>
+    <string name="widget_traffic2x3_unit">MB</string>
+    <string name="widget_traffic2x3_total_label">套餐总流量</string>
+    <string name="widget_traffic2x3_total">3096</string>
+    <string name="widget_traffic2x3_btn_text">流量设置</string>
+    
+    <string name="widget_camera1x1_name">相机</string>
+    <string name="widget_gallery1x1_name">相册</string>
+    <string name="widget_btime1x1_name">北京时间</string>
+    <string name="widget_settings1x1_name">设置</string>
+    
+    <!-- built in widget end -->
+    
+    <string name="virtual_statusbar_time_text">12:34</string>
+
+</resources>

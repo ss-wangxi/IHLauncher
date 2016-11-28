@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/move_to_left_screen_bar"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/move_to_left_screen_bar_bg"
+    android:paddingBottom="0dip"
+    android:layout_gravity="left|top"
+    android:visibility="gone"/>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+<resources>
+    <!-- common begin -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="grey">#3B3B3B</color>
+    <color name="light_grey">#EBEBEB</color>
+    <color name="sky_blue">#3399FF</color>
+    <color name="shadow">#F0F0F0</color>
+    <color name="mask">#555B5A5A</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucent">#80000000</color>
+    <!-- common end -->
+
+    <color name="dark_transparent">#AA000000</color>
+    <color name="delete_color_filter">#A5FF0000</color>
+
+    <color name="appwidget_error_color">#FCCC</color>
+    
+    <color name="cp_bg_color">#000000</color>
+    
+    <color name="cp_text_color_pressed">#00ffcc</color>
+    <color name="cp_text_color_released">#ffffff</color>
+    <drawable name="pressed_color">#20FFFFFF</drawable> <!--custom color for pressed state -->
+    <drawable name="normal_color">#00FFFFFF</drawable> <!--transperent color for normal state -->
+    
+	<color name="white_gray">#b2ffffff</color>
+	<color name="default_widget_shadow_color">#80000000</color>
+	<color name="folder_schedule_color">#30c256</color>
+	
+	<color name="widget_mapguide2x3_btn_text">#248adc</color>
+    <color name="widget_setting2x3_btn_text">#5C5C66</color>
+    <color name="widget_ximalaya2x3_btn_text">#c44b45</color>
+    <color name="widget_netfm2x3_btn_text">#c44b45</color>
+    <color name="widget_music2x3_btn_text">#e96d35</color>
+    <color name="widget_fm2x3_btn_text">#B86944</color>
+    <color name="widget_fm2x3_channel">#FFD6A0</color>
+    <color name="widget_traffic2x3_btn_text">#248BE3</color>
+    <color name="widget_kl2x3_btn_text">#01aa42</color>
+    
+    <color name="widget2x3_name_text">#FFFFFF</color>
+    <color name="widget2x3_status_text">#999999</color>
+	
+</resources>

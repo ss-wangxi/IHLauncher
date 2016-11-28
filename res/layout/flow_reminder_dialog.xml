@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="209.3dp"
+    android:layout_gravity="center"
+    android:background="#434343"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="460dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="16.6dp"
+        android:paddingRight="16.6dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center_horizontal"
+        android:textSize="21.3dp"
+        android:textColor="#ffffff"
+        android:id="@+id/flow_reminder_message" 
+        />    
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="37.3dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginStart="37.3dp"
+        android:layout_marginEnd="38.6dp">
+       <Button
+        android:id="@+id/cancel_flow_reminder"
+        android:layout_width="180dp"
+        android:layout_height="44dp" 
+        android:background="@drawable/cacel_button_border1"    
+        android:text="忽略"
+        android:textColor="#515255"
+        android:textSize="20sp" 
+        android:clickable="true"/> 
+        <Button
+        android:id="@+id/add_flow"
+        android:layout_width="180dp"
+        android:layout_height="44dp"       
+        android:background="@drawable/settings_button_border1"    
+        android:text="充值"
+        android:textColor="#ffffff"
+        android:textSize="20sp" 
+        android:clickable="true"
+        android:layout_marginStart="24dp"/>           
+    </LinearLayout> 
+</LinearLayout>

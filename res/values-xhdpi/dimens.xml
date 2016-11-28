@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="snser_test_screen">5dp</dimen>
+    
+    <dimen name="launcher_margin_none">0dp</dimen>
+    <dimen name="launcher_margin_navibar">0dp</dimen>
+    
+    <dimen name="indicator_margin_left_phone_default">0dp</dimen>
+    <dimen name="indicator_margin_left_car_j601">0dp</dimen>
+    <dimen name="indicator_margin_left_car_default">0dp</dimen>
+    
+    <dimen name="workspace_cell_width">80dip</dimen>
+    <dimen name="workspace_cell_height">100dip</dimen>
+    
+    <dimen name="workspace_icon_drawable_padding">0dp</dimen>
+    <dimen name="app_icon_bg_outter_padding">0dp</dimen>
+    <dimen name="app_icon_bg_inner_padding">3dp</dimen>
+    
+    <dimen name="workspace_bottom_area_padding">3dp</dimen>
+    
+    <dimen name="widget2x3_margin_left">0dp</dimen>
+    <dimen name="widget2x3_margin_right">0dp</dimen>
+    <dimen name="widget2x3_margin_top">0dp</dimen>
+    <dimen name="widget2x3_margin_bottom">18dp</dimen>
+    
+    <dimen name="workspace_long_axis_start_gap">0px</dimen>
+    <dimen name="workspace_long_axis_mid_gap">0px</dimen>
+    <dimen name="workspace_long_axis_end_gap">0px</dimen>
+    
+    <dimen name="dockbar_height">114dip</dimen>
+    
+    <dimen name="bubbtextview_textsize">12sp</dimen>
+    
+    <dimen name="screen_edit_height">250dp</dimen>
+    <dimen name="screen_edit_content_height">170dp</dimen>
+    <dimen name="screen_edit_height_without_fadding">180dp</dimen>
+    <!-- 新UI加入 -->
+    <dimen name="default_clockweather_widget_width">342dp</dimen>
+    <dimen name="default_clockweather_widget_height">193.83dp</dimen>
+    
+    <dimen name="default_clockweather_widget_time_margin_right">40dp</dimen>
+    <dimen name="default_clockweather_widget_time_margin_top">26dp</dimen>
+    <dimen name="default_clockweather_widget_time_text_size">64dp</dimen>
+    <dimen name="default_clockweather_widget_ampm_margin_bottom">-40dp</dimen>
+    <dimen name="default_clockweather_widget_ampm_text_size">12dp</dimen>
+    <dimen name="default_clockweather_widget_date_text_size">14dp</dimen>
+    <dimen name="default_clockweather_widget_zh_text_size">13dp</dimen>
+    <dimen name="default_clockweather_widget_weather_icon_width">100dp</dimen>
+    <dimen name="default_clockweather_widget_weather_icon_height">70dp</dimen>
+    <dimen name="default_clockweather_widget_weather_icon_margin_left">30dp</dimen>
+    <dimen name="default_clockweather_widget_weather_icon_margin_top">25dp</dimen>
+    <dimen name="default_clockweather_widget_weather_infomation_margin_top">6dp</dimen>
+    <dimen name="default_clockweather_widget_aqi_text_size">12dp</dimen>
+    <dimen name="default_clockweather_widget_weather_midline_margin_top">40dp</dimen>
+    
+    <!-- base -->
+    <dimen name="clockweather_widget_max_height">185dip</dimen>
+    
+    <!-- clock weather popup -->
+    <dimen name="clockweather_popup_padding_top">85dp</dimen>
+    <dimen name="clockweather_linechart_height">168dp</dimen>
+    <dimen name="clockweather_popup_header_city_text_size">26dp</dimen>
+    <dimen name="clockweather_popup_header_text_size">18dp</dimen>
+    <dimen name="clockweather_popup_header_aqi_text_size">13dp</dimen>
+    <dimen name="clockweather_popup_header_icon_size">70dp</dimen>
+    <dimen name="clockweather_popup_header_minHeight">90dp</dimen>
+    
+    <dimen name="clockweather_left_margin">34dp</dimen>
+    <dimen name="clockweather_right_margin">34dp</dimen>
+    <dimen name="clockweather_bottom_padding">15dp</dimen>
+    <dimen name="clockweather_time_width">186dp</dimen>
+    <dimen name="clockweather_time_height">55dp</dimen>
+    <dimen name="clockweather_date_left_offset">5dp</dimen>
+    <dimen name="clockweather_city_left_margin">20dp</dimen>
+    <dimen name="clockweather_small_text_size">12sp</dimen>
+    <dimen name="clockweather_right_width">60dp</dimen>
+
+</resources>

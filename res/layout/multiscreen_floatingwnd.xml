@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <RelativeLayout
+        android:id="@+id/multiscreen_floatingwnd_root"
+		android:layout_width="@dimen/multiscreen_floatingwnd_width_normal"
+		android:layout_height="@dimen/multiscreen_floatingwnd_height"
+		android:layout_centerVertical="true" >
+		<ImageView
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:scaleType="fitXY"
+		    android:src="@drawable/bg_about_custom_title" />
+    </RelativeLayout>
+
+</RelativeLayout>

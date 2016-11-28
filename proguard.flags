@@ -1,0 +1,211 @@
+-optimizationpasses 5
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-verbose
+-printmapping build/classes-processed.map
+-keepattributes Signature
+
+-dontwarn
+# -dontoptimize
+-dontnote **
+
+# jar library
+
+# Keep a fixed source file attribute and all line number tables to get line
+# numbers in the stack traces.
+# You can comment this out if you're not interested in stack traces.
+-renamesourcefileattribute SourceFile
+-keepattributes SourceFile,LineNumberTable
+
+# Reduce the size of the output some more.
+-repackageclasses ''
+-allowaccessmodification
+
+# RemoteViews might need annotations.
+-keepattributes *Annotation*
+
+#-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+#-keep public class * extends android.app.Activity
+#-keep public class * extends android.app.Application
+#-keep public class * extends android.app.Service
+#-keep public class * extends android.content.BroadcastReceiver
+#-keep public class * extends android.content.ContentProvider
+-keep public class com.shouxinzm.launcher.support.settings.ResolverActivity {
+    <methods>;
+}
+
+# Preserve all View implementations, their special context constructors, and
+# their setters.
+
+-keepclassmembers public class * extends android.view.View {
+    public void set*(...);
+    protected void onDrawHorizontalScrollBar(...);
+}
+
+-keepclassmembers public class * extends android.view.ViewGroup {
+    public boolean shouldDelayChildPressedState();
+}
+
+-keepclasseswithmembers class * extends android.database.sqlite.SQLiteOpenHelper {
+    public void onDowngrade(android.database.sqlite.SQLiteDatabase, int, int);
+}
+
+# Preserve all classes that have special context constructors, and the
+# constructors themselves.
+
+#-keepclasseswithmembers class * {
+#    public <init>(android.content.Context, android.util.AttributeSet);
+#}
+
+# Preserve all classes that have special context constructors, and the
+# constructors themselves.
+
+#-keepclasseswithmembers class * {
+#    public <init>(android.content.Context, android.util.AttributeSet, int);
+#}
+
+# Preserve the special fields of all Parcelable implementations.
+
+-keepclassmembers class * implements android.os.Parcelable {
+    static android.os.Parcelable$Creator CREATOR;
+}
+
+# Preserve static fields of inner classes of R classes that might be accessed
+# through introspection.
+
+-keep class **.R$* {  
+	*; 
+  }
+  
+-keep class cc.snser.launcher.ui.dragdrop.DragLayer$* {
+	*; 
+}
+
+# Preserve the required interface from the License Verification Library
+# (but don't nag the developer if the library is not used at all).
+
+-keep public interface com.android.vending.licensing.ILicensingService
+
+-dontnote com.android.vending.licensing.ILicensingService
+
+# Preserve all native method names and the names of their classes.
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# Preserve the special static methods that are required in all enumeration
+# classes.
+
+-keepclassmembers class * extends java.lang.Enum {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+################################ launcher specific –keep attributes ##########################################
+
+# Your application may contain more items that need to be preserved; 
+# typically classes that are dynamically created using Class.forName:
+
+# -keep public class mypackage.MyClass
+# -keep public interface mypackage.MyInterface
+# -keep public class * implements mypackage.MyInterface
+
+-keepclassmembers class **.DetailFragment$JavaScriptInterface {
+    <methods>;
+}
+
+-keepclassmembers class * extends android.webkit.WebChromeClient {
+    <methods>;
+}
+
+-keep public class com.shouxinzm.launcher.ui.wallpaper.MockStub {
+    public <methods>;
+}
+
+-keep public class * extends cc.snser.launcher.widget.WidgetView {
+    public <init>(android.app.Activity);
+}
+
+-keep public class mobi.intuitit.android.widget.SimpleRemoteViews
+-keep public class mobi.intuitit.android.widget.BoundRemoteViews
+
+# android-support-v4
+#-keep class android.support.v4.** { *; } 
+#-keep public class * extends android.support.v4.** 
+-keep public class * extends android.app.Fragment
+
+# android-support-v7
+-keep public class android.support.v7.** { *; } 
+-keep public class * extends android.support.v7.** 
+
+# the internal framework
+-keep class com.android.internal.app.** { *;}
+
+
+-keepclassmembers class **.PayActivity$PayWebviewJavascriptInterface {
+    <methods>;
+}
+
+##---------------Begin: proguard configuration for Gson  ----------
+# Gson uses generic type information stored in a class file when working with fields. Proguard
+# removes such information by default, so configure it to keep all of it.
+-keepattributes Signature
+
+# Gson specific classes
+-keep class sun.misc.Unsafe { *; }
+-keep class com.google.gson.stream.** { *; }
+-keep class com.google.gson.examples.android.model.** { *; } 
+-keep class com.google.gson.** { *;}
+
+
+##---------------End: proguard configuration for Gson  ----------
+
+
+# delete log code
+#-assumenosideeffects class com.shouxinzm.launcher.util.Log.XLog
+#{
+#	public static void d(...);
+#	public static void i(...);
+#	public static void v(...);
+#	public static void w(...);
+#	public static void e(...);
+#}
+#-assumenosideeffects class android.util.Log
+#{
+#	public static boolean isLoggable(java.lang.String, int);
+#	public static int v(...);
+#	public static int i(...);
+#	public static int w(...);
+#	public static int d(...);
+#	public static int e(...);
+#}
+#-assumenosideeffects class com.shouxinzm.launcher.widget.util.XLog
+#{
+#	public static int v(...);
+#	public static int i(...);
+#	public static int w(...);
+#	public static int d(...);
+#	public static int e(...);
+#} 
+
+# Exception Report
+-keep public class spec.req.** { *; }
+
+
+# jar library
+-libraryjars libs/android-support-v4.jar
+    -keep class android.support.** { *;}
+-libraryjars libs/gson-2.2.4.jar
+    -keep class com.google.gson.** { *;}
+-libraryjars libs/library_support_v4.jar
+    -keep class com.shouxinzm.launcher.support.v4.** { *;}
+-libraryjars libs/ui-common.jar
+    -keep class android.support.** { *;}
+
+#Json Class
+-keepclassmembers class com.btime.launcher.report.gps.JsonGPSRecord {*;}
+
+
+

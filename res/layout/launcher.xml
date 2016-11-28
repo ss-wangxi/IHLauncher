@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.snser.launcher.ui.dragdrop.DragLayer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drag_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/launcher_margin_none"
+    android:layout_marginRight="@dimen/launcher_margin_none" >
+    
+    <com.btime.launcher.statusbar.VirtualStatusBar
+        android:id="@+id/statusbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/virtual_statusbar_height" />
+	
+    <cc.snser.launcher.screens.Workspace
+        android:id="@+id/workspace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/workspace_margin_top"
+        android:layout_marginBottom="@dimen/workspace_margin_bottom"
+        android:layout_marginLeft="@dimen/workspace_margin_left"
+        android:layout_marginRight="@dimen/workspace_margin_right"
+        android:paddingTop="@dimen/workspace_padding_top"
+        android:paddingBottom="@dimen/workspace_padding_bottom"
+        android:paddingLeft="@dimen/workspace_padding_left"
+        android:paddingRight="@dimen/workspace_padding_right"
+        android:focusable="true" />
+    
+    <cc.snser.launcher.screens.OverScrollView
+        android:id="@+id/overscroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/workspace_margin_top"
+        android:layout_marginBottom="@dimen/workspace_margin_bottom"
+        android:layout_marginLeft="@dimen/workspace_margin_left"
+        android:layout_marginRight="@dimen/workspace_margin_right"
+        android:scaleType="fitXY"
+        android:alpha="0.0" />
+	
+    <include layout="@layout/delete_zone"
+        android:id="@+id/delete_zone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/delete_zone_size" />
+    <include layout="@layout/notify_zone"
+        android:id="@+id/notify_zone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/notify_zone_size" />
+    
+	<cc.snser.launcher.ui.components.ScreenIndicator
+	    android:id="@+id/indicator"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignWithParentIfMissing="true"
+        android:layout_gravity="bottom|center_horizontal"
+        android:padding="@dimen/workspace_bottom_area_padding"
+	    android:focusable="false"
+	    android:gravity="center_vertical"
+	    android:background="@null" />
+	
+</cc.snser.launcher.ui.dragdrop.DragLayer>
